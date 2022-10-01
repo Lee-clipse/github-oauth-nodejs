@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    script(src="/javascripts/index.js") 
+    #container.f-col.sp-ar
+      h2 사용자 이름: #{userName}
+      h2 저장소 개수: #{userRepo}
+      button#login-btn(type="button") Github로 로그인
